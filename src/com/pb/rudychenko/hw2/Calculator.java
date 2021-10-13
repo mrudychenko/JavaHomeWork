@@ -8,8 +8,8 @@ public class Calculator {
 
     public static void main(String[] args) {
 int operand1, operand2;
-//double  oper1;
-//double oper2;
+//double  operand1;
+//double operand2;
 
 String sign;
         Scanner input = new Scanner(System.in);
@@ -19,7 +19,7 @@ String sign;
         operand2=input.nextInt();
 if (operand2==0){System.out.println("Не можна ділити на нуль, введіть інше число");
     return;
-};
+}
         System.out.println("Виберіть арифмитичну дію: + - * :");
 sign=input.next();
 
