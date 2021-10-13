@@ -22,11 +22,11 @@ else if(num<=d2){
 else if(num<=d3){
             System.out.print("Число потрапляє в інтервал[36-50]");
         }
-else if(num>d3 & num<d4){
+else if(num>d3 & num<=d4){
             System.out.print("Число потрапляє в інтервал[51-100]");
         }
-else if(num>d4 ){
-            System.out.print("Число не потрапляє в інтервал [1-100]");
+else {
+            System.out.print("Число НЕ потрапляє в інтервал [1-100]");
         }
     }
 }
