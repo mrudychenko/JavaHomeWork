@@ -10,7 +10,7 @@ public class Calculator {
 int operand1, operand2;
 
 
-String sign;
+        String sign;
         Scanner input = new Scanner(System.in);
         System.out.print("Введіть перше число :");
         operand1= input.nextInt();
