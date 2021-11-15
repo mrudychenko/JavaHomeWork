@@ -45,6 +45,4 @@ public static int getBookCount(){return bookCount;}
 
     }
 
-//public void knigaVzata(Book nameBook){
-//}
 }

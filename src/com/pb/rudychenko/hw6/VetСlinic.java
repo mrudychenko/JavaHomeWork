@@ -1,7 +1,12 @@
 package com.pb.rudychenko.hw6;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
 public class VetСlinic {
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args) throws Exception {
        Veterinarian veterinarian=new Veterinarian();
 
 
@@ -23,14 +28,23 @@ public class VetСlinic {
 
         Animal[] animals=new Animal[]{dog,cat,hors};
 
-        for (Animal animal:animals ) {
-animal.makeNoise();
-            System.out.println(animal.getName()+" "+animal.getLocation()+" ");
-            veterinarian.treatAnimal(animals,animal);
+//        for (Animal animal:animals ) {
+//
+//            veterinarian.treatAnimal(animals,animal);
+//
+//        }
 
-        }
+//        Class vetClazz =  Class.forName("com.pb.rudychenko.hw6.Veterinarian");
+//
+//        Constructor constr = vetClazz.getConstructor(String.class);
+//        Object vet = constr.newInstance("Animal DOK");
+//        Method treatAnimal=vetClazz.getMethod("treatAnimal",Animal.class);
+//        }
+//        for (Animal animal:animals ) {
+//
+//        treatAnimal.invoke(vet, animal);
+//
+//    }
 
+    }}
 
-
-    }
-}
