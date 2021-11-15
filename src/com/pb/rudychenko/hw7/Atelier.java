@@ -1,5 +1,7 @@
 package com.pb.rudychenko.hw7;
 
+
+
 public class Atelier {
     public static void main(String[] args) {
         Tie tie=new Tie(2337,"XXL","black", "Галстук");

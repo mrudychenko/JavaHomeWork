@@ -14,6 +14,6 @@ private String name;
 
     @Override
     public String toString(Clothes clothes1) {
-        return this.name;
+        return this.name +" "+super.toString();
     }
 }

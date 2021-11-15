@@ -23,6 +23,6 @@ public class Tshirt extends Clothes implements ManClothes,WomenClothes{
 
     @Override
     public String toString(Clothes clothes1) {
-        return name;
+        return name +" "+super.toString();
     }
 }
