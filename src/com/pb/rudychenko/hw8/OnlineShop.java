@@ -27,7 +27,7 @@ public class OnlineShop {
 
         try {
             auth.signUp("login1","password1","password1");
-            auth.signIn("login1","passwor1");
+            auth.signIn("login1","password1");
         } catch (WrongLoginException |WrongPasswordExeption e) {
             System.out.println(e.getMessage());
             //e.printStackTrace();
