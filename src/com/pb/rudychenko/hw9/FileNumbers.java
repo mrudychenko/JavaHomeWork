@@ -1,9 +1,6 @@
 package com.pb.rudychenko.hw9;
 
 import java.io.*;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
